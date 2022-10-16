@@ -1,0 +1,20 @@
+{
+  "firstName": "Kalimuthu",
+  "lastName": "",
+  "male": true,
+  "spouse": {
+    "firstName": "Suseela"
+  },
+  "children": [
+    {
+      "firstName": "Karthik",
+      "lastName": "",
+      "male": true
+    },
+    {
+      "firstName": "KamalaSree",
+      "lastName": "",
+      "male": false
+    }
+  ]
+}
