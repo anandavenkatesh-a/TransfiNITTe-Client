@@ -6,7 +6,7 @@ import tree from "./tree.json";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { tree: tree };
+    this.state = { tree: tree.familyTree };
   }
 
   build_tree(house_number) {
@@ -61,6 +61,10 @@ class App extends Component {
   }
 
   render() {
+    let people = this.build_tree(107);
+    for (var p in people) {
+      console.log(people[p]);
+    }
     return (
       <div>
         <FamilyTree tree={this.state.tree} depth={0} />

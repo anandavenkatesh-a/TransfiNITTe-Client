@@ -1,20 +1,24 @@
 {
-  "firstName": "Kalimuthu",
-  "lastName": "",
-  "male": true,
-  "spouse": {
-    "firstName": "Suseela"
-  },
-  "children": [
-    {
-      "firstName": "Karthik",
-      "lastName": "",
-      "male": true
-    },
-    {
-      "firstName": "KamalaSree",
-      "lastName": "",
-      "male": false
-    }
-  ]
+  "familyTree": {
+    "firstName": "murugesan",
+    "lastName": "",
+    "male": false,
+    "children": [
+      {
+        "firstName": "Shanmugam",
+        "lastName": "",
+        "male": true
+      },
+      {
+        "firstName": "Malliga",
+        "lastName": "",
+        "male": false
+      },
+      {
+        "firstName": "Priya",
+        "lastName": "",
+        "male": false
+      }
+    ]
+  }
 }
